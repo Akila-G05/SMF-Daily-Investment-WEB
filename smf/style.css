@@ -1,0 +1,79 @@
+@font-face{
+  font-family: "Quicksand";
+  src:url("fonts/Quicksand-Medium.ttf");
+}
+
+.main-body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #221f3f;
+
+}
+
+.user-body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.copy:hover{
+  cursor: pointer;
+}
+
+
+
+/* Admin Signin */
+  .body{
+    margin: 0px;
+    background-image: url("resources/bg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .signin{
+    background: rgba(255, 255, 255, 0.486);
+    border-radius: 35px;
+  }
+
+  .title2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .title2_1{
+    font-size: 18px;
+  }
+
+  .signinbtn{
+    border-radius: 18px;
+    background: black;
+    height: 38px;
+  }
+
+  .signinbtn:hover{
+    cursor: pointer;
+    border-color: white;
+  }
+/* Admin Signin */
+
+/* .b1{
+  width: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  background-color: transparent;
+  color: white;
+}
+
+.b1:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+} */
+
+
