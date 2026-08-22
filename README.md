@@ -91,5 +91,5 @@ smf/
 
 1. Install [XAMPP](https://www.apachefriends.org/) (Apache + MySQL + PHP).
 2. Copy the `smf` folder into your `htdocs` directory.
-3. Import the database into MySQL and update credentials in `connection.php`.
+3. Import `database/smf.sql` into MySQL (creates the `maruwa` database) and update credentials in `smf/connection.php`.
 4. Start Apache and MySQL, then open: `http://localhost/smf/index.php`
