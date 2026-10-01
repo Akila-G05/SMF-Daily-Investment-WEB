@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config and secrets (keep out of version control)
+.env
+.env.local
+
+# User-uploaded files at runtime
+smf/profile_images/
+smf/uploads/
