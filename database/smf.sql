@@ -2044,8 +2044,8 @@ CREATE TABLE IF NOT EXISTS `paybill` (
 INSERT INTO `paybill` (`id`, `name`, `ac_no`, `payment`, `date`, `b_type_id`, `b_status_id`, `user_email`) VALUES
 	(4, 'dsf', '324', 15.94, '2023-08-07 03:20:50', 2, 3, 'test@gmail.com'),
 	(5, 'Akila', '0701283945', 3.19, '2023-08-07 03:21:32', 4, 3, 'test@gmail.com'),
-	(6, 'Akila Gimhana', '0764012265', 9.56, '2023-08-07 03:24:29', 3, 2, 'test@gmail.com'),
-	(7, 'Akila Gimhana', '0764012265', 1.59, '2023-08-07 14:45:44', 4, 2, 'test@gmail.com');
+	(6, 'Akila Gimhana', '0701283945', 9.56, '2023-08-07 03:24:29', 3, 2, 'test@gmail.com'),
+	(7, 'Akila Gimhana', '0701283945', 1.59, '2023-08-07 14:45:44', 4, 2, 'test@gmail.com');
 
 CREATE TABLE IF NOT EXISTS `p_status` (
   `id` int NOT NULL,
@@ -2123,7 +2123,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`email`, `user_name`, `password`, `b_id`, `mobile`, `r_date`, `r_code`, `ls_date`, `verification_code`, `gender_id`, `u_status_id`) VALUES
 	('test2@gmail.com', 'test2', '123456', '123456789', '0765432198', '2023-08-03', '64cbaf10c68d4', '2026-08-23', '64cbaf10c68d7', 1, 1),
-	('test@gmail.com', 'test', '123456', '123123123', '0764012265', '2023-08-03', '64cbae96e9d47', '2025-10-04', '64cbae96e9d49', 1, 1);
+	('test@gmail.com', 'test', '123456', '123123123', '0701283945', '2023-08-03', '64cbae96e9d47', '2025-10-04', '64cbae96e9d49', 1, 1);
 
 CREATE TABLE IF NOT EXISTS `user_has_address` (
   `id` int NOT NULL AUTO_INCREMENT,
